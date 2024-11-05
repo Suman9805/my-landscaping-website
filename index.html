@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landscaping Services</title>
+
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- W3 Schools Link Tag Reference -->
+    <!-- For HTML link tags reference: https://www.w3schools.com/tags/tag_link.asp -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Landscaping Services</h1>
+        <p>Transforming your outdoor space into a paradise!</p>
+    </header>
+
+    <!-- Cost Estimator Form -->
+    <section id="estimator">
+        <h2>Project Cost Estimator</h2>
+        <form id="costEstimatorForm">
+            <!-- Yard Size -->
+            <label>Yard Size</label><br>
+            <input type="radio" name="yardSize" value="small"> Small<br>
+            <input type="radio" name="yardSize" value="medium"> Medium<br>
+            <input type="radio" name="yardSize" value="large"> Large<br>
+            <input type="radio" name="yardSize" value="custom"> Custom<br>
+
+            <!-- Design Options -->
+            <label>Design Options</label><br>
+            <input type="checkbox" name="features" value="flower_beds"> Flower Beds<br>
+            <input type="checkbox" name="features" value="walkways"> Walkways<br>
+            <input type="checkbox" name="features" value="fountains"> Fountains<br>
+            <input type="checkbox" name="features" value="lighting"> Outdoor Lighting<br>
+
+            <!-- Service Frequency -->
+            <label>Service Frequency</label><br>
+            <input type="radio" name="frequency" value="one_time"> One-time<br>
+            <input type="radio" name="frequency" value="recurring"> Recurring<br>
+
+            <!-- Display Estimate -->
+            <div id="estimatedCost">Estimated Cost: $0</div>
+
+            <!-- Contact Button -->
+            <button type="button" onclick="submitEstimate()">Book a Consultation</button>
+        </form>
+    </section>
+
+    <!-- Link JavaScript File -->
+    <script src="script.js"></script>
+    <!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to book a consultation, please reach out to us!</p>
+
+    <div class="contact-info">
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> <a href="mailto:sumanpreetkaur54010@gmail.com">sumanpreetkaur54010@gmail.com</a></p>
+        <p><strong>Address:</strong> 121 Maroondah Highway, Ringwood, 3178 </p>
+    </div>
+</body>
+</html>
